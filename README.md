@@ -20,7 +20,7 @@ docker run --rm --name "my-lighttpd" -d -p 80:80 -v /home/user/mywebpages:/webro
 Works for static web content.
 
 ```text
-   ________   __    _ 
+  ________   __    _ 
  |___  /\ \ / /   | | E-mail  : zxjason@proton.me
     / /  \ V /    | | Web     : https://x-cape.one/
    / /    > < _   | | Twitter : @ZxJaSoN
