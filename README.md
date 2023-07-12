@@ -2,6 +2,8 @@
 
 [![](https://github.com/zxjason/lighttpd_php_sqlite_docker)](https://github.com/zxjason/lighttpd_php_sqlite_docker)
 
+Powered by bitnami/minideb
+
 Build using;
 
 ```bash
