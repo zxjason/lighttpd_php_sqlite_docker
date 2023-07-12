@@ -7,17 +7,17 @@ Powered by bitnami/minideb
 Build using;
 
 ```bash
-docker build -t minideb-lighttpd .
+docker build -t dsplite .
 ```
 
 Run from Docker using;
 
 ```bash
-docker run --rm --name "my-lighttpd" -d -p 80:80 -v /home/user/mywebpages:/webroot minideb-lighttpd
+docker run -d --name=my-dsplite  --restart=always -p 80:80 -v ./webroot:/webroot dsplite
 
 ```
 
-Works for static web content.
+Works for dynamic web content.
 
 ```text
   ________   __    _ 
